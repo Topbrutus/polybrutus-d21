@@ -1,0 +1,22 @@
+name: Verify Polybrutus D21 exact certificate
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install exact symbolic mathematics
+        run: python -m pip install sympy==1.14.0
+      - name: Certify D21 Euclidean metric, Gram and selected graph model
+        run: python src/verify_d21.py
+      - name: Independently verify 325 rational pair distances and spectral roots
+        run: python tests/independent_d21.py
