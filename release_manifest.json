@@ -3,7 +3,7 @@
   "dimension": 21,
   "repository": "Topbrutus/polybrutus-d21",
   "branch": "main",
-  "state": "CANDIDATE_VERIFIED_LOCAL_NOT_PUBLISHED",
+  "state": "DONE",
   "vertices": 26,
   "pairs": 325,
   "affine_rank": 21,
@@ -12,15 +12,52 @@
   "parent_doi": "10.5281/zenodo.24409424",
   "parent_github_tag": "Topbrutus/polybrutus-d20@v0.1.0",
   "parent_tag_commit": "3e9ee3117f1c3c3e5ffc80236fa2026a5d825ce3",
-  "github_commit": null,
-  "github_release_tag": null,
-  "zenodo_record_id": null,
-  "zenodo_doi": null,
+  "github_commit": "f17e4d02f7442d18cdafbcbb0b62380c557e4ef2",
+  "github_release_tag": "v0.1.0",
+  "zenodo_record_id": 24409527,
+  "zenodo_doi": "10.5281/zenodo.24409527",
   "scientific_delta": "Exact 26-vertex rank-21 labelled metric conserving all 300 old distances; selected ideal graph eigenvalue 13 multiplicity 15.",
   "novel_universal_theorem": "NOT CLAIMED",
   "physical_claim": "NONE",
   "human_peer_review": "NOT_DONE",
   "AI_disclosure": "OpenAI ChatGPT (Astra) substantially assisted exact mathematics, separately coded rational verifier, writing and release; not an author.",
-  "verification": "Primary and independently implemented rational programs PASS locally; GitHub CI pending",
-  "next_action": "Create private D21 GitHub repo, pass exact CI, freeze tag, stage one checked Zenodo draft and verify before public release."
+  "verification": {
+    "coordinate_affine_rank": "PASS",
+    "centered_gram_rank": "PASS",
+    "exact_gram_psd_factorization": "PASS",
+    "prior_labelled_pairs": "300/300 PASS",
+    "new_pair_distances": "25/25 PASS",
+    "independent_rational_metric": "325/325 PASS",
+    "negative_controls": "4/4 PASS",
+    "chosen_graph_eigenvalues": "13 x15; 25/2 x4 PASS",
+    "github_actions": "PASS",
+    "zenodo_public_files": "3/3 PASS"
+  },
+  "next_action": "Only on NEXT user go start D22 from frozen Polybrutus D21 v0.1.0; target 27 points, 351 labelled squared distances, preserve 325 prior distances, add 26 distances squared 2R², affine rank 22. Do not start D22 before next go.",
+  "github_public_verified": true,
+  "github_actions": {
+    "run_id": 44850038663,
+    "conclusion": "success",
+    "head_sha": "f17e4d02f7442d18cdafbcbb0b62380c557e4ef2"
+  },
+  "github_main_note": "Post-release DOI metadata and source hash index can advance main, but scientific source tag v0.1.0 remains frozen.",
+  "zenodo_public_verified": true,
+  "zenodo_files": [
+    {
+      "name": "POLYBRUTUS_D21_SOURCE_v0.1.0_GITHUB_TAG.zip",
+      "size": 183715,
+      "sha256": "fb8a8a4392d681c1586a3cbf477e1ffef0f3666feccb3f1269de10cdf29d0408"
+    },
+    {
+      "name": "POLYBRUTUS_21D_NOTE.pdf",
+      "size": 139607,
+      "sha256": "07143352dc5af702a72cee35d47776c55ffdd5c12360869a5ad18352e1c3e1e9"
+    },
+    {
+      "name": "certificate_d21.json",
+      "size": 26163,
+      "sha256": "b1485950644593aac7ea6d2ecf72d119aced794c2d07476471f48432f87f4dfa"
+    }
+  ],
+  "publication_approval": "Topbrutus explicitly instructed that each new go authorizes one new dimensional GitHub and Zenodo publication, and gave go for D21."
 }
