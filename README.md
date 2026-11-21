@@ -1,5 +1,14 @@
 # POLYBRUTUS 21D — Exact twenty-six-point Euclidean metric and a fifteenfold ideal graph mode
 
+## Official publicly verified scientific release
+
+- **Zenodo DOI:** [10.5281/zenodo.24409527](https://doi.org/10.5281/zenodo.24409527), [public record 24409527](https://zenodo.org/records/24409527), checked using the public Zenodo API.
+- **Frozen scientific source:** [`v0.1.0`](https://github.com/Topbrutus/polybrutus-d21/tree/v0.1.0), source commit `f17e4d02f7442d18cdafbcbb0b62380c557e4ef2`.
+- **Independent exact CI:** [GitHub Actions D21 run 44850038663](https://github.com/Topbrutus/polybrutus-d21/actions/runs/44850038663), conclusion `success` on the frozen science source; both programs PASS.
+- **Three Zenodo files:** immutable Git-tagged source ZIP, mathematical PDF and 325-pair exact labelled JSON certificate; all file checksums independently checked.
+- **Scientific limits:** minimum affine Euclidean dimension 21 and a chosen graph model, not a physical extra dimension, measured resonance, or universal new mathematical theorem.
+
+
 **Human research author and responsible investigator:** Gabriel St-Pierre, independent researcher.  
 **Status:** Exact reproducible computational mathematics; not independently reviewed by human peers.  
 **AI assistance disclosure:** OpenAI ChatGPT (Astra) substantially assisted two separate verification programs, mathematical calculation, theoretical graph modelling, research writing and release work; AI is not an author.
